@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace SpeedCodingClasses
 {
-    class Car : Vehicle
+    public class Car : Vehicle
     {
+        public int NumOfWheels { get { return 4; } }
 
+        String Horn()
+        {
+            return "honk";
+        }
     }
+    
 }

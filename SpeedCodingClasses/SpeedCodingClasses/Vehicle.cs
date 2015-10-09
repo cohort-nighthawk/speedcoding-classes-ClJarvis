@@ -8,6 +8,6 @@ namespace SpeedCodingClasses
 {
     public class Vehicle
     {
-        public int NumOfWheels { get; set; }
+        
     }
 }
